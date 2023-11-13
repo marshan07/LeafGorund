@@ -7,7 +7,7 @@ import common.BaseClass;
 import pageObject.pageRepository.DashboardPage;
 
 public class DashboardTest extends BaseClass{	
-	DashboardPage dashboardPage;;
+	DashboardPage dashboardPage;
 	
 	@BeforeClass
 	public void setUp() {
