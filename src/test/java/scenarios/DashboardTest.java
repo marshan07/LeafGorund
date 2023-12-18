@@ -7,8 +7,9 @@ import common.BaseClass;
 import pageObject.pageRepository.DashboardPage;
 
 public class DashboardTest extends BaseClass{	
+
 	DashboardPage dashboardPage;;;;;
-	
+
 	@BeforeClass
 	public void setUp() {
 		setUpBrowser("chrome");
